@@ -1,0 +1,23 @@
+{
+    "name": "random-nplus1-article",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "forever start index.js",
+        "stop": "forever stop index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/kiraind/random-nplus1-article.git"
+    },
+    "author": "kiraind",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/kiraind/random-nplus1-article/issues"
+    },
+    "homepage": "https://github.com/kiraind/random-nplus1-article#readme",
+    "dependencies": {
+        "node-fetch": "^2.6.0"
+    }
+}
