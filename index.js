@@ -1,6 +1,12 @@
 const http  = require('http')
 const fetch = require('node-fetch')
 
+if(!process.argv[2]) {
+    throw new Error('please specify port')
+}
+
+const port = parseInt(process.argv[2], 10)
+
 function random(from, to) {
     return from + Math.floor( Math.random() * (to - from + 1) )
 }
@@ -48,4 +54,4 @@ http.createServer(async function (request, response) {
     })
 
     response.end()
-}).listen( 80 )
+}).listen( port )
