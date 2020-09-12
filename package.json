@@ -18,6 +18,6 @@
     },
     "homepage": "https://github.com/kiraind/random-nplus1-article#readme",
     "dependencies": {
-        "node-fetch": "^2.6.0"
+        "node-fetch": "^2.6.1"
     }
 }
